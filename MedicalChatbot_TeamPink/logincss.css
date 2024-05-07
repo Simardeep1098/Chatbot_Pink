@@ -1,0 +1,62 @@
+/* This code sets the background color of the body to a dark grey color and sets the font family to Arial or any sans-serif font */
+body {
+background-color: #252733;
+}
+
+/* This code styles the form by setting its background color to white, border radius to 5px, box shadow to give it a 3D effect, width to 300px, padding to 20px, and margin to auto */
+form {
+background-color: #ffffff;
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+padding: 20px;
+width: 370px;
+margin: 50px auto;
+}
+
+/* This code styles the h1 tag by centering its text*/
+h1 {
+text-align: center;
+}
+
+/* This code styles the input text and password fields by setting their width to 95%, padding to 10px, margin bottom to 20px, border to none, border radius to 3px, and a box shadow to give it a 3D effect */
+input[type="text"], input[type="password"] {
+width: 95%;
+padding: 10px;
+margin-bottom: 20px;
+border: none;
+border-radius: 3px;
+box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* This code styles the submit button by setting its background color to #333, color to white, border to none, padding to 10px, border radius to 3px, width to 100%, and cursor to pointer. It also sets the font size to 16px */
+input[type="submit"] {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px;
+border-radius: 3px;
+width: 100%;
+cursor: pointer;
+font-size: 16px;
+}
+
+/* This code styles the register button the same way as the submit button */
+input[type="register"] {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px;
+border-radius: 3px;
+width: 100%;
+cursor: pointer;
+font-size: 16px;
+}
+
+/* This code styles the submit button when it's hovered by changing its background color to #666 */
+input[type="submit"]:hover {
+background-color: #666;
+}
+
+/* This code centers the 'new to website' text in the form */
+#ntw{
+text-align: center;

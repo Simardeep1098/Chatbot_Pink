@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #252733;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#main{
+    width: 99.8%;
+    display: flex;
+    padding-top: 20px;
+}
+
+.side-menu{
+    width: 20%;
+    padding: 8px;
+}
+
+.side-menu-table{
+    width: 100%;
+}
+
+.icons{
+    text-align: right;
+    padding-top: 31px;
+}
+
+.icon-name{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 31px;
+    color: white;
+    font-size: 20px;
+}
+
+#seperator{
+    margin-left: 10px;
+    width: 3px;
+    height: 64vh;
+    background-color: white;
+}
+
+.chat {
+    margin-left: 30px;
+    width: 70%;
+    padding: 10px;
+    position: relative;
+    height: 430px;
+    overflow: auto; 
+}
+
+.chat::-webkit-scrollbar {
+    width: 5px; 
+}
+
+.chat::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px;
+}
+
+.chat::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+}
+
+.chat::-webkit-scrollbar-track {
+    background-color: #252733;
+}
+
+.chat form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px; /* Add padding to the form */
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 15px;
+    margin-right: -60px; /* Add spacing between input field and button */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 68%;
+    margin-left: 365px;
+    margin-top: -100px;
+}
+
+button {
+    padding: 6px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.chat .messages {
+            /* Add styles for the chat messages container */
+            border: 1px solid #4CAF50;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #4CAF50;
+            width: 50%;
+        }
+
+.chat .messages p {
+            /* Add styles for the chat message text */
+            margin: 0;
+            font-size: 18px;
+            color: white;
+        }
+
+/* Style for bot messages */
+.message.bot {
+    clear: both; /* Clear floats */
+    overflow: auto; /* Clear floats */
+    padding: 10px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    width: 70%; /* Adjust the width as needed */
+    float: left; /* Float to the left */
+    font-size: 18px;
+    color: white;
+}
+
+/* Style for user messages */
+.message.user {
+    clear: both; /* Clear floats */
+    overflow: auto; /* Clear floats */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    width: 70%; /* Adjust the width as needed */
+    float: right; /* Float to the right */
+    font-size: 18px;
+}
