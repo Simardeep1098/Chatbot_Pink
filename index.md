@@ -1,123 +1,32 @@
 ---
 layout: default
 ---
+<div>
+    <a href="https://www.linkedin.com/in/simardeep1098"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://github.com/Simardeep1098"><img src="https://img.shields.io/badge/-GitHub-000000?&style=for-the-badge&logo=github&logoColor=white" /></a>
+</div>
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Objective
 
-[Link to another page](./another-page.html).
+This **Medical Chatbot** project is designed to assist users in managing their health by collecting personal health data such as age, weight, and other health metrics. The chatbot provides personalized advice based on the user's health inputs and stored information. Admin users can manage health-related disease data and access it through the chatbot interface. Built using PHP, MySQL, and JavaScript, the chatbot serves as a valuable tool for users to track their well-being and receive tailored recommendations.
 
-There should be whitespace between paragraphs.
+### Skills Learned
+- Development of a PHP-based chatbot.
+- MySQL database management for user and disease data.
+- User input handling and personalized health advice.
+- Admin functionality for managing health-related data.
+- Frontend design using HTML, CSS, and JavaScript.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+### Tools Used
+- **PHP**: Backend development for the chatbot functionality.
+- **MySQL**: Database management for storing user and health data.
+- **JavaScript**: For creating interactive and dynamic user interfaces.
+- **HTML/CSS**: For designing the user interface of the chatbot.
 
-# Header 1
+## GitHub Repository
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Explore the full source code of the **Medical Chatbot** project by visiting my [GitHub repository](https://github.com/Simardeep1098/medical-chatbot).
 
-## Header 2
+## Conclusion
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+This project provided hands-on experience in PHP development, database management, and chatbot functionality, helping to strengthen my skills in web development and creating interactive applications for real-world use.
