@@ -2,8 +2,8 @@
 layout: default
 ---
 <div>
-     <img src="https://img.icons8.com/fluency/60/linkedin.png" alt="LinkedIn Icon"/>
-    <img src="https://img.icons8.com/plasticine/60/github.png" alt="GitHub Icon"/>
+    <a href="https://www.linkedin.com/in/simardeep1098"><img src="https://img.icons8.com/fluency/60/linkedin.png" alt="LinkedIn Icon"/></a>
+    <a href="https://github.com/Simardeep1098"><img src="https://img.icons8.com/plasticine/60/github.png" alt="GitHub Icon"/></a>
 </div>
 
 ## Objective
